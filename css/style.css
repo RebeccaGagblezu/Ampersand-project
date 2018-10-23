@@ -1,0 +1,230 @@
+ 
+/* body{
+  
+} */
+
+
+a ,a:hover {
+  text-decoration: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000000b0;
+}
+
+.navbar-nav a {
+  font-family: 'Open Sans', sans-serif;
+    position: relative;
+    padding: 10px 20px;
+    overflow: hidden;
+    font-size: 14px;
+  }
+
+  
+
+  /* .topNav .active{
+    border-bottom: 3px solid #a10043;
+  } */
+ 
+/* home header style*/
+
+/* The header image */
+.borderB{
+  border-bottom: 3px solid #e33235;
+  width: 15%;
+  padding-top: 138px;
+}
+
+.borderB1{
+  border-bottom: 1px solid #e33235;
+  width: 15%;
+}
+
+.span1{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.span2{
+  font-size: 55px;
+  color: #e33235;
+}
+
+.text1{
+  padding-top: 74px;
+}
+
+#section2{
+  padding-bottom: 133px;
+}
+
+#section3{
+  background-color: #e33235;
+  color: #fff;
+ margin-bottom: 147px;
+}
+
+#section3 img{
+  margin: -50px 0px;
+}
+
+.borderB3{
+  border-bottom: 3px solid #fff;
+  width: 15%;
+  padding-top: 114px;
+  margin-bottom: 11px;
+}
+
+#section4{
+  padding-top: 132px;
+  padding-bottom: 168px;
+  padding-left: 70px;
+  background-image: url(../images/clients-map.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.detail{
+  font-size: 28px;
+  padding: 44px 256px;
+}
+
+.testi{
+  padding: 103px 90px;
+}
+
+.fa-quote-left{
+  font-size: 30px;
+  margin-left: -35px;
+}
+
+#section5{
+  background-color: #e33235;
+  color: #fff;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 0px !important; 
+  padding-left: 0px !important;
+  
+}
+
+#section6{
+  text-align: center;
+  padding: 82px 70px;
+  background-color: #edf1f5;
+}
+
+#section6 h1{
+  padding: 0px 228px !important;
+}
+
+#section6 p{
+  padding: 0px 265;
+ 
+}
+
+.borderB5 {
+  border-bottom: 3px solid #e33235;
+  width: 15%;
+  padding-top: 24px;
+  margin: 0px auto;
+  margin-bottom: 24px;
+}
+
+footer{
+  padding: 42px 52px;
+  background-color: #e33235;
+  color: #fff ;
+}
+
+/* contact */
+
+/*---------------------------------------
+  Contact section              
+-----------------------------------------*/
+
+#contact{
+  background-color: #303040;
+  color: #fff;
+  padding-top:121px;
+  padding-bottom: 97px;
+}
+.contact-info .fa {
+  padding-right: 5px;
+}
+
+#contact .form-control {
+  border: none;
+  border-bottom: 2px solid #f0f0f0;
+  border-radius: 0px;
+  box-shadow: none;
+  font-size: 18px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+  background-color: #303040;
+}
+
+#contact .form-control:focus {
+  border-bottom-color: #999999;
+}
+
+#contact input {
+  height: 55px;
+}
+
+#contact button#submit {
+  background: #2b2b2b;
+  border: none;
+  border-radius: 50px;
+  color: #ffffff;
+  height: 50px;
+  margin-top: 24px;
+}
+
+#contact button#submit:hover {
+  background: #7682cc;
+  color: #ffffff;
+}
+
+footer .fab {
+  font-family: "Font Awesome 5 Brands";
+  color: #fff;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+nav .fab {
+  font-family: "Font Awesome 5 Brands";
+  color: #e33235;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .detail {
+    font-size: 28px;
+    padding: 44px 0px;
+}
+
+#section6 h1 {
+  padding: 0px !important;
+}
+
+#section3 img {
+  margin: -50px 0px;
+  width: 100%;
+  height: 400px;
+}
+
+#contact{
+  padding: 121px 10px 97px 10px;
+}
+
+
+}
