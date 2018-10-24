@@ -20,6 +20,9 @@ a ,a:hover {
     font-size: 14px;
   }
 
+  .topNav .active{
+    border-bottom: 3px solid #e33235;
+  }
   
 
   /* .topNav .active{
@@ -31,13 +34,14 @@ a ,a:hover {
 /* The header image */
 .borderB{
   border-bottom: 3px solid #e33235;
-  width: 15%;
+  width: 100px;
   padding-top: 138px;
 }
 
 .borderB1{
   border-bottom: 1px solid #e33235;
-  width: 15%;
+  width: 100px;
+  margin-top: 22px;
 }
 
 .span1{
@@ -70,7 +74,7 @@ a ,a:hover {
 
 .borderB3{
   border-bottom: 3px solid #fff;
-  width: 15%;
+  width: 100px;
   padding-top: 114px;
   margin-bottom: 11px;
 }
@@ -129,7 +133,7 @@ a ,a:hover {
 
 .borderB5 {
   border-bottom: 3px solid #e33235;
-  width: 15%;
+  width: 100px;
   padding-top: 24px;
   margin: 0px auto;
   margin-bottom: 24px;
@@ -168,6 +172,7 @@ footer{
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
   background-color: #303040;
+  color: #fff;
 }
 
 #contact .form-control:focus {
@@ -227,4 +232,77 @@ nav .fab {
 }
 
 
+}
+
+#contact button{
+  background-color: #e33235;
+  color: #fff;
+}
+
+/* .require input::after { 
+  content:" *"; 
+  color: #e33235 !important;
+  display:inline;
+} */
+
+input[required] {
+ 
+}
+
+#section5 .media .imgPerson {
+	width: 100%;
+	height: 482px;
+	display: block;
+	
+}
+
+#section5 .testimonial {
+	padding: 100px 15px 100px 60px;
+	position: relative;
+}
+
+#section5 .testimonial::before {
+  content: '\f10d';
+  color: #fff;
+  /* font-weight: bold; */
+  font-size: 30px;
+  line-height: 54px;
+  position: absolute;
+  left: 15px;
+  top: 130px;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+}
+
+.commentLogo{
+  width: 200px !important;
+  height: 23px;
+  margin-bottom: 21px;
+}
+
+.require{
+  position: relative;
+}
+
+#contact .require::after {
+  content: '\f111';
+  color: #e33235;
+  /* font-weight: bold; */
+  font-size: 7px;
+  line-height: 54px;
+  position: absolute;
+  /* left: 100px; */
+  top: 50px;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  right: 1px;
+}
+
+.fa-circle{
+  color: #e33235;
+  font-size: 7px;
+}
+
+#contact-form{
+  padding: 30px;
 }

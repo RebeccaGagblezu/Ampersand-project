@@ -24,9 +24,9 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav  ml-auto">
-        <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link " href="index.html">Home <span class="sr-only">(current)</span></a>
         <a class="nav-item nav-link" href="#">What we Do</a>
-        <a class="nav-item nav-link" href="contact.html">Contact</a>
+        <a class="nav-item nav-link active" href="contact.html">Contact</a>
         <a class="nav-item nav-link " href="#"><i class="fab fa-facebook"></i></a>
         <a class="nav-item nav-link " href="#"><i class="fab fa-twitter"></i></a>
 
@@ -56,21 +56,21 @@
           <div class="">
             <form id="contact-form" action="contact.php" method="POST">
               <div class="row">
-                <div class="col-md-4 col-sm-12">
+                <div class="col-md-4 col-sm-12 require" >
                   <input type="text" class="form-control " name="name" placeholder="Name" required>
                 </div>
-                <div class="col-md-4 col-sm-12">
+                <div class="col-md-4 col-sm-12 require">
                   <input type="email" class="form-control" name="email" placeholder="Email" required>
                 </div>
-                <div class="col-md-4 col-sm-12">
+                <div class="col-md-4 col-sm-12 require">
                   <input type="text" class="form-control" name="phone" placeholder="Phone" required>
                 </div>
               </div>
               <div class="row">
-                <div class="col-md-4 col-sm-12">
+                <div class="col-md-4 col-sm-12 require">
                   <input type="text" class="form-control" name="company" placeholder="Company" required>
                 </div>
-                <div class="col-md-4 col-sm-12">
+                <div class="col-md-4 col-sm-12 require">
                   <input type="text" class="form-control" name="country" placeholder="Country" required>
                 </div>
                 <div class="col-md-4 col-sm-12">
@@ -83,6 +83,8 @@
                   <textarea class="form-control" rows="5" name="project" placeholder="Project Description" required></textarea>
                 </div>
               </div>
+
+              <p class="text-center text-white">Fields marked with <i class="fas fa-circle"></i> are required</p>
 
               <div class="row text-center">
 
@@ -99,7 +101,7 @@
 
   </section>
 
-  <footer>
+  <footer class="d-none d-sm-block">
     <div class="container">
       <div class="row">
         <div class="col">
@@ -118,6 +120,26 @@
         </div>
       </div>
     </div>
+  </footer >
+ 
+  <footer class="d-block d-sm-none">
+      <div class="container">
+          <div class="row">
+            
+            
+            <div class="col-xs-7">
+              <p>hello@ampersandteam.io</p>
+            </div>
+            <div class=" col-xs-5">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></i></a>
+            </div>
+            <div class="col-xs-12 text-center">
+                <p>© 2016 Ampersand Technologies</p>
+              </div>
+          </div>
+        </div>
   </footer>
 
   <script src="js/jquery-3.3.1.min.js"></script>
